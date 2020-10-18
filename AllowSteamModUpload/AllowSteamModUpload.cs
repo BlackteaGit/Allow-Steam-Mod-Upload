@@ -85,7 +85,7 @@ namespace AllowSteamModUpload
 						{
 							string fileName = Path.GetFileName(path);
 						___foundFiles += fileName;
-							bool flag3 = !fileName.EndsWith(".flt") && !fileName.EndsWith(".bdm") && !fileName.EndsWith(".tdb") && !fileName.EndsWith(".dll") && !fileName.EndsWith(".txt") && !fileName.EndsWith(".json");
+							bool flag3 = !fileName.EndsWith(".flt") && !fileName.EndsWith(".bdm") && !fileName.EndsWith(".tdb") && !fileName.EndsWith(".dll") && !fileName.EndsWith(".txt") && !fileName.EndsWith(".json") && !fileName.EndsWith(".xnb");
 							if (flag3)
 							{
 							___foundFiles += " (invalid file type)";
